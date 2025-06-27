@@ -4,7 +4,9 @@ body{line-height:1;overflow-wrap:break-word;word-wrap:break-word}
 input,textarea,select{font-family:inherit;font-size:inherit;color:inherit;vertical-align:middle;box-sizing:border-box}
 a{margin:0;padding:0;text-decoration:none;outline:none;font-size:100%;vertical-align:baseline;background:transparent}
 a img{border-style:none}
-ul,li{list-style-type:none}
+ul,li{list-style-type:disc}
+ol {list-style-type: decimal}
+
 hr{border:0;display:block;margin:1em 0;padding:0;height:1px}
 .cf:before,.cf:after{content:" ";display:table}.cf:after{clear:both}
 
