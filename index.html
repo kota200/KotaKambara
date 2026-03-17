@@ -1,182 +1,324 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kota Kambara</title>
-<link rel="stylesheet" href="style.css" type="text/css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kota Kambara</title>
+  <meta name="description" content="Kota Kambara | Plant genomics, transcriptomics, molecular biology, and bioinformatics.">
+  <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-<!-- ▼全体の囲み▼ -->
-<div id="wrapper">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand">
+        <span class="brand-title">Kota Kambara</span>
+        <span class="brand-subtitle">Plant Genomics · Transcriptomics · Bioinformatics</span>
+      </a>
 
-<!-- メニューを開くボタン -->
-<div id="open"><span id="open-icon"></span><span class="open-text">MENU</span></div>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav">
+        <span></span><span></span><span></span>
+      </button>
 
-<!-- ▼ヘッダ▼ -->
-<header>
-<div id="header-inner">
-<!-- サイト名 -->
-<h1><a href="index.html">Kota Kambara</a></h1>
-</div>
-</header><!-- ▲ヘッダ▲ -->
+      <nav class="site-nav" id="siteNav">
+        <a href="#about">About</a>
+        <a href="#profile">Profile</a>
+        <a href="#publications">Publications</a>
+        <a href="#presentations">Presentations</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<!-- ▼メイン▼ -->
-<div id="contents" class="cf">
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid hero-grid-single">
+        <div class="hero-copy">
+          <p class="eyebrow">Research Portfolio</p>
+          <h1>Kota Kambara</h1>
+          <p class="hero-lead">
+            I am <strong>Kota Kambara</strong>, a Ph.D. student in the Graduate School of Agricultural and Life Sciences at
+            The University of Tokyo. My research focuses on plant genomics, transcriptomics, and molecular biology,
+            especially in pearl millet and related plant systems.
+          </p>
 
-<!-- ▼右側▼ -->
-<div id="rightcolumn-wrap">
-<div id="rightcolumn">
-<article>
-<!-- ▼右側の内容▼ -->
+          <div class="hero-actions">
+            <a class="button primary" href="#publications">View publications</a>
+          </div>
 
-<h2>Introduction</h2>
-
-I am Kota Kambara. I am a Ph.D. student in Agricultural and Life Sciences at The University of Tokyo. <br>
-My research interests are in plant genomics and its application to breeding. I am also interested in plant-microbe interactions.  <br>
-<br>
-Key words:<br>
-Genomics/Bioinformatics/Molecular biology/Plant-microbe intereaction/Pearl millet/Orchid mycorrhiza
-
-<h2 id="Profile">Profile</h2>
-
-<h3>Education</h3>
-<div class="entry-content">
-<ul>
-<li>Apr. 2024 –
-<ul>
-<li>The University of Tokyo</li>
-<li>Ph.D. student (Agricultural and Life Sciences)</li>
-</ul>
-</li>
-<li>Apr. 2022 – Mar. 2024
-<ul>
-<li>The University of Tokyo</li>
-<li>Master (Agricultural and Life Sciences)</li>
-</ul>
-</li>
-<li>Apr. 2018 – Mar. 2022
-<ul>
-<li>Hokkaido University</li>
-<li>Bachelor (Agriculture)</li>
-</ul>
-</li>
-</ul>
-</div>
- 
-<h3>Employment</h3>
-<div class="entry-content">
-<ul>
-<li>Apr. 2024 -
-<ul>
-<li>JSPS Research Fellowship for Young Scientist DC1</li>
-</ul>
-</div>
+          <ul class="keyword-list">
+            <li>Plant Genomics</li>
+            <li>Bioinformatics</li>
+            <li>Molecular Biology</li>
+            <li>Transcriptomics</li>
+            <li>Pearl Millet</li>
+            <li>Plant-Microbe Interactions</li>
+          </ul>
+        </div>
 
 
-<h3>Skills</h3>
-<div class="entry-content">
-<ul>
-<li>Genome and transcriptome analysis</li>
-<li>Python, R and Linux</li>
-<li>GitHub: @kota200</li>
-<li>Pearl millet RNA-seq database: <a href="https://webpark2116.sakura.ne.jp/kk/PM_index.html"> https://webpark2116.sakura.ne.jp/kk/PM_index.html </a> </li>
-</ul>
-</div>
+      </div>
+    </section>
 
-<h2 id="Publications">Publications</h2>
-<h3>Jounal</h3>
-<ol>
-<li>Qazi M, Kambara K, Gupta SK, Takano T, Tsugama D. Evidence that abscisic acid mediates gene 
-activation under dehydrating conditions in pearl millet. Biosci Biotechnol Biochem, in press</li>
-<li>Kambara K, Gupta SK, Takano T, Tsugama D. Data from collection and analysis of RNA sequencing data 
-from pearl millet. Data Brief, 55: 110592, 2024</li>
-<li>Kambara K, Gupta SK, Takano T, Tsugama D. Phenotyping and a genome-wide association study of elite 
-lines of pearl millet. Breed Sci, 74(3): 240-246, 2024</li>
-<li>Kambara K, Shimura H, Fujino K, Masuta C. Metagenomic analyses of viruses in the orchid mycorrhizal 
-interaction using improved assemble tools. Methods Mol Biol, 2732: 67-81, 2023</li>
-<li>Kambara K, Fujino K, Shimura H. Construction of a de novo assembly pipeline using multiple 
-transcriptome data sets from Cypripedium macranthos (Orchidaceae). PLoS One 18(6): e0286804, 2023</li>
-</ol>
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Research interests</h2>
+          <p>
+            My work combines computational and experimental approaches to understand plant traits,
+            gene regulation, and crop improvement. I am particularly interested in genome and transcriptome analysis,
+            public RNA-seq data reuse, and functional genomics in pearl millet.
+          </p>
+        </div>
 
- <h3>Conference</h3>
-<ol>
-<li>神原昂太・津釜大侑・高野哲夫「トウジンビエの花成制御遺伝子候補・KNOTTED1-like遺伝子の機能解析 」日本育種学会第147回講演会</li>
-<li>神原昂太・Shashi Kumar Gupta・高野哲夫・津釜大侑「トウジンビエのRNA-seqデータベースの構築とその遺伝子機能解析への応用」日本育種学会第146回講演会</li>
-<li>神原昂太・志村華子「レブンアツモリソウ菌根菌の共生発芽能やマイコウイルスに関して」菌根研究会2023年度大会</li>
-<li>神原昂太・Shashi Kumar Gupta・高野哲夫・津釜大侑「フォトグラメトリとGWASを用いたトウジンビエの「穂の形」に関わる遺伝子の探索」日本育種学会第144回講演会</li>
-<li>神原昂太・志村華子・藤野介延「レブンアツモリソウ菌根菌2系統のゲノム配列解析」第68回日本菌学会大会</li>
-<li>神原昂太・志村華子・藤野介延「複数のデノボアセンブリ手法を用いたレブンアツモリソウおよび菌根菌からのウイルス検出」第70回日本ウイルス学会学術集会</li>
-<li>神原昂太・津釜大侑・高野哲夫「麦踏みシグナル伝達機構の理解のためのトランスクリプトーム解析」日本育種学会第143回講演会</li>
-<li>神原昂太・Shashi Kumar Gupta・高野哲夫・津釜大侑「トウジンビエのエリートラインを用いた圃場試験とGWAS」日本育種学会第143回講演会</li>
-<li>神原昂太・Shashi Kumar Gupta・高野哲夫・津釜大侑「トウジンビエの遺伝的変異解析による農業形質関連遺伝子の探索」日本育種学会第142回講演会</li>
-<li>神原昂太・志村華子・藤野介延「ラン科植物の種子発芽に関わる諸要因の解析」園芸学会令和4年度春季大会</li>
-</ol>
- 
-<h2 id="Gallery">Gallery</h2> 
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>Plant genomics</h3>
+            <p>Trait discovery, comparative genomics, and breeding-oriented interpretation of sequence variation.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Transcriptomics</h3>
+            <p>RNA-seq integration, large-scale reanalysis, and expression resource development across species.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Molecular biology</h3>
+            <p>Gene-level functional analysis and biological validation of computational hypotheses.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Plant-microbe interactions</h3>
+            <p>Orchid mycorrhiza, viral communities, and symbiosis-related molecular mechanisms.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<!-- ▲右側の内容▲ -->
-</article>
+    <section class="section alt" id="profile">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Profile</p>
+          <h2>Education, employment, and skills</h2>
+          <p>
+            Updated to reflect the current public profile and recent work.
+          </p>
+        </div>
 
-</div></div>
+        <div class="profile-grid">
+          <article class="content-card">
+            <h3>Education</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="timeline-date">Apr. 2024 – Present</span>
+                <h4>The University of Tokyo</h4>
+                <p>Ph.D. student, Graduate School of Agricultural and Life Sciences</p>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-date">Apr. 2022 – Mar. 2024</span>
+                <h4>The University of Tokyo</h4>
+                <p>Master, Graduate School of Agricultural and Life Sciences</p>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-date">Apr. 2018 – Mar. 2022</span>
+                <h4>Hokkaido University</h4>
+                <p>Bachelor, Faculty of Agriculture</p>
+              </div>
+            </div>
+          </article>
 
+          <article class="content-card">
+            <h3>Employment & fellowships</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="timeline-date">Apr. 2024 – Present</span>
+                <h4>JSPS Research Fellowship for Young Scientists (DC1)</h4>
+                <p>Research fellow working on plant genomics and functional biology.</p>
+              </div>
+            </div>
 
-<!-- ▼左側▼ -->
-<div id="side-bg"></div>
-<div id="leftcolumn-wrap">
-<div id="leftcolumn">
+            <h3 class="subheading">Research areas</h3>
+            <ul class="tag-list">
+              <li>Plant genomics</li>
+              <li>Transcriptome analysis</li>
+              <li>Bioinformatics</li>
+              <li>Molecular biology</li>
+              <li>Conservation science (plants)</li>
+            </ul>
+          </article>
 
-<!-- ▼メニュー▼ -->
-<h2>Menu</h2>
-<div id="menu">
-<nav>
-<li><a href="index.html">Top</a>
-<li><a href="#Profile">Profile</a>
-<li><a href="#Publications">Publications</a>
-</nav>
-</div>
-<!-- ▲メニュー▲ -->
+          <article class="content-card wide-card">
+            <h3>Skills & links</h3>
+            <div class="skills-grid">
+              <div>
+                <h4>Technical skills</h4>
+                <ul class="clean-list">
+                  <li>Genome and transcriptome analysis</li>
+                  <li>Python, R, and Linux</li>
+                  <li>RNA-seq resource construction</li>
+                  <li>Public dataset integration and visualization</li>
+                </ul>
+              </div>
+              <div>
+                <h4>Web resources</h4>
+                <ul class="clean-list link-list">
+                  <li><a href="https://webpark2116.sakura.ne.jp/RNADB/" target="_blank" rel="noopener noreferrer">Grass Expression Atlas (GExA)</a></li>
+                  <li><a href="https://researchmap.jp/kotakambara" target="_blank" rel="noopener noreferrer">Researchmap</a></li>
+                  <li><a href="https://github.com/kota200" target="_blank" rel="noopener noreferrer">GitHub: @kota200</a></li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<aside>
+    <section class="section" id="publications">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Publications</p>
+          <h2>Journal articles</h2>
+          <p>
+            Full journal article list based on the currently visible Researchmap publications.
+          </p>
+        </div>
 
-<h2>Update</h2>
-<!-- テキストエリア -->
-<textarea rows="3" cols="20">
-2025/06/27 up
-</textarea>
+        <div class="publication-list">
+          <article class="publication-card featured-publication">
+            <span class="pub-year">2025</span>
+            <h3>Transcriptomic and protein-protein interaction network analyses of the molecular mechanisms underlying the mycorrhizal interaction in <em>Cypripedium macranthos</em> var. <em>rebunense</em></h3>
+            <p class="pub-authors">Chunyi Jin, Kota Kambara, Kaien Fujino, Hanako Shimura</p>
+            <p class="pub-journal">Frontiers in Plant Science 16: 1597154</p>
+          </article>
 
-<h2>Contact</h2>
-<ul>
-<li>
-Mail:<br>
-kk-120(at sign)g.ecc.u-tokyo.ac.jp
-<p class="follow-me-icons">
-    <a href="https://researchmap.jp/kotakambara" target="_blank">
-      <img src="image/researchmap130.png" alt="Researchmap">
-    </a>
-    <a href="https://github.com/kota200" target="_blank">
-      <img src="image/github-mark-dark.png" alt="GitHub">
-    </a>
-  </p>
+          <article class="publication-card">
+            <span class="pub-year">2025</span>
+            <h3>Evidence that abscisic acid mediates gene activation under dehydrating conditions in pearl millet</h3>
+            <p class="pub-authors">Maimuna Qazi, Kota Kambara, Shashi Kumar Gupta, Tetsuo Takano, Daisuke Tsugama</p>
+            <p class="pub-journal">Bioscience, Biotechnology, and Biochemistry 89(8): 1081–1091</p>
+          </article>
 
-</aside>
+          <article class="publication-card">
+            <span class="pub-year">2024</span>
+            <h3>Data from collection and analysis of RNA sequencing data from pearl millet</h3>
+            <p class="pub-authors">Kota Kambara, Shashi Kumar Gupta, Tetsuo Takano, Daisuke Tsugama</p>
+            <p class="pub-journal">Data in Brief 55: 110592</p>
+          </article>
 
-<div id="fl"><a href="http://foollovers.com" target="_blank">designed</a></div>
+          <article class="publication-card">
+            <span class="pub-year">2024</span>
+            <h3>Phenotyping and a genome-wide association study of elite lines of pearl millet</h3>
+            <p class="pub-authors">Kota Kambara, Shashi Kumar Gupta, Tetsuo Takano, Daisuke Tsugama</p>
+            <p class="pub-journal">Breeding Science 74(3): 240–246</p>
+          </article>
 
-</div></div><!-- ▲左側▲ -->
+          <article class="publication-card">
+            <span class="pub-year">2023</span>
+            <h3>Metagenomic analyses of viruses in the orchid mycorrhizal interaction using improved assemble tools</h3>
+            <p class="pub-authors">Kota Kambara, Hanako Shimura, Kaien Fujino, Chikara Masuta</p>
+            <p class="pub-journal">Methods in Molecular Biology 2732: 67–81</p>
+          </article>
 
-</div><!-- ▲メイン▲ -->
+          <article class="publication-card">
+            <span class="pub-year">2023</span>
+            <h3>Construction of a de novo assembly pipeline using multiple transcriptome data sets from <em>Cypripedium macranthos</em></h3>
+            <p class="pub-authors">Kota Kambara, Kaien Fujino, Hanako Shimura</p>
+            <p class="pub-journal">PLOS ONE 18(6): e0286804</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-</div><!-- ▲全体の囲み▲ -->
+    <section class="section alt" id="presentations">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Presentations</p>
+          <h2>Selected conference presentations</h2>
+        </div>
 
-<!-- ページトップに戻る -->
-<a href="#" id="pagetop">top</a>
+        <div class="presentation-grid">
+          <article class="mini-card">
+            <span class="mini-year">2025</span>
+            <h3>Functional analysis of a KNOTTED1-like gene, a candidate for a gene regulating flowering in pearl millet</h3>
+            <p>Japanese Society of Breeding, 147th Meeting</p>
+          </article>
+          <article class="mini-card">
+            <span class="mini-year">2024</span>
+            <h3>Construction of a pearl millet RNA-seq database and its application to gene function analysis</h3>
+            <p>Japanese Society of Breeding, 146th Meeting</p>
+          </article>
+          <article class="mini-card">
+            <span class="mini-year">2023</span>
+            <h3>On symbiotic germination and mycoviruses in mycorrhizal fungi associated with <em>Cypripedium macranthum var. rebunense</em></h3>
+            <p>Mycorrhizal Research Meeting 2023</p>
+          </article>
+          <article class="mini-card">
+            <span class="mini-year">2023</span>
+            <h3>Searching for genes associated with panicle morphology in pearl millet using photogrammetry and GWAS</h3>
+            <p>Japanese Society of Breeding, 144th Meeting</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-<!-- jquery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="js/jquery.height.js"></script>
-<script src="js/jquery.scroll.js"></script>
-<script src="js/jquery.toggle.js"></script>
+    <section class="section" id="contact">
+      <div class="container contact-grid">
+        <div class="section-heading left-align">
+          <p class="eyebrow">Contact</p>
+          <h2>Get in touch</h2>
+          <p>
+            For research collaboration, database-related inquiries, or academic communication,
+            please contact me by email or through the profiles below.
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <p class="contact-label">Email</p>
+          <p class="contact-mail">kk-120(at sign)g.ecc.u-tokyo.ac.jp</p>
+          <p class="contact-note">Please replace “(at sign)” with @.</p>
+
+          <div class="icon-links">
+            <a href="https://researchmap.jp/kotakambara" target="_blank" rel="noopener noreferrer" aria-label="Researchmap">
+              <img src="image/researchmap130.png" alt="Researchmap">
+              <span>Researchmap</span>
+            </a>
+            <a href="https://github.com/kota200" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <img src="image/github-mark-dark.png" alt="GitHub">
+              <span>GitHub</span>
+            </a>
+          </div>
+
+          <div class="update-box">
+            <span class="update-label">Last updated</span>
+            <strong>2026/03/17</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© Kota Kambara</p>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script>
+    const navToggle = document.getElementById('navToggle');
+    const siteNav = document.getElementById('siteNav');
+
+    navToggle.addEventListener('click', () => {
+      siteNav.classList.toggle('open');
+      navToggle.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded', navToggle.classList.contains('open') ? 'true' : 'false');
+    });
+
+    document.querySelectorAll('.site-nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        siteNav.classList.remove('open');
+        navToggle.classList.remove('open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+  </script>
 </body>
 </html>
